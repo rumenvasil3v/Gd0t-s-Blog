@@ -3,6 +3,7 @@ package com.gd0t.gd0t.controller;
 import java.util.List;
 import java.util.Optional;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -11,11 +12,16 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 
 import com.gd0t.gd0t.model.Post;
+import com.gd0t.gd0t.service.MarkdownService;
 import com.gd0t.gd0t.service.PostService;
 
 @Controller
 public class BlogController {
 	
+	@Autowired
+	private MarkdownService markdownService;
+	
+	@Autowired
 	private final PostService postService;
 	
 	// Dependency Injection -> Spring gives us the Service
@@ -55,7 +61,10 @@ public class BlogController {
 		Post post = postService.getPostById(id)
 				.orElseThrow(() -> new IllegalArgumentException("Invalid post Id:" + id));
 		
+		String formattedHtml = markdownService.renderToHtml(post.getContent());
+		
 		model.addAttribute("post", post);
+		model.addAttribute("formattedContent", formattedHtml);
 		return "post";
 	}
 	
