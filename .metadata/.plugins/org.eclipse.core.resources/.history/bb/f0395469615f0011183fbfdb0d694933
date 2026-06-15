@@ -1,6 +1,0 @@
-package com.gd0t.gd0t.controller;
-
-@Controller
-public class PortfolioController {
-
-}
