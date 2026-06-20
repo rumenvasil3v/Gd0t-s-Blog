@@ -2069,3 +2069,69 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2026-06-20 10:48:31.110
 !MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-06-20 11:00:04.352
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-06-20 11:00:04.353
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-06-20 11:00:04.354
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-06-20 11:00:04.355
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-06-20 11:00:19.584
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-06-20 11:00:19.586
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-06-20 11:00:19.586
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-06-20 11:00:19.588
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-06-20 11:15:31.442
+!MESSAGE [Info] Document is null for editor: Gd0tApplication.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-06-20 11:15:31.443
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/Rumen/Documents/gd0t's%20blog/gd0t/src/main/java/com/gd0t/gd0t/Gd0tApplication.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-06-20 11:15:31.496
+!MESSAGE [Info] Document is null for editor: Post.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-06-20 11:15:31.497
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/Rumen/Documents/gd0t's%20blog/gd0t/src/main/java/com/gd0t/gd0t/model/Post.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-06-20 11:15:31.514
+!MESSAGE [Info] Document is null for editor: PostRepository.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-06-20 11:15:31.514
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/Rumen/Documents/gd0t's%20blog/gd0t/src/main/java/com/gd0t/gd0t/repository/PostRepository.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-06-20 11:15:31.551
+!MESSAGE [Info] Document is null for editor: index.html
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-06-20 11:15:31.552
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/Rumen/Documents/gd0t's%20blog/gd0t/src/main/resources/templates/index.html
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-06-20 11:15:31.592
+!MESSAGE [Info] Document is null for editor: resume.html
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-06-20 11:15:31.593
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/Rumen/Documents/gd0t's%20blog/gd0t/src/main/resources/templates/resume.html
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-06-20 11:15:31.624
+!MESSAGE [Info] Document is null for editor: projects.html
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-06-20 11:15:31.626
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/Rumen/Documents/gd0t's%20blog/gd0t/src/main/resources/templates/projects.html
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-06-20 11:15:31.683
+!MESSAGE [Info] Document is null for editor: BlogController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-06-20 11:15:31.684
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/Rumen/Documents/gd0t's%20blog/gd0t/src/main/java/com/gd0t/gd0t/controller/BlogController.java

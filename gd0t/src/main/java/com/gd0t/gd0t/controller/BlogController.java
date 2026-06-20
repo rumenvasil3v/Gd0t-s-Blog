@@ -1,10 +1,6 @@
 package com.gd0t.gd0t.controller;
 
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.Comparator;
 import java.util.List;
-import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -17,7 +13,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import com.gd0t.gd0t.model.Post;
 import com.gd0t.gd0t.service.MarkdownService;
 import com.gd0t.gd0t.service.PostService;
-import com.gd0t.gd0t.utility.SortByAge;
 
 @Controller
 public class BlogController {
