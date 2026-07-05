@@ -2639,3 +2639,39 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2026-07-05 17:43:28.636
 !MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-07-05 18:13:57.779
+!MESSAGE [Info] Document is null for editor: PostRepository.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-07-05 18:13:57.780
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/Rumen/Documents/gd0t's%20blog/gd0t/src/main/java/com/gd0t/gd0t/repository/PostRepository.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-07-05 18:13:57.818
+!MESSAGE [Info] Document is null for editor: PostService.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-07-05 18:13:57.818
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/Rumen/Documents/gd0t's%20blog/gd0t/src/main/java/com/gd0t/gd0t/service/PostService.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-07-05 18:13:57.880
+!MESSAGE [Info] Document is null for editor: BlogController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-07-05 18:13:57.880
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/Rumen/Documents/gd0t's%20blog/gd0t/src/main/java/com/gd0t/gd0t/controller/BlogController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-07-05 18:13:57.924
+!MESSAGE [Info] Document is null for editor: index.html
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-07-05 18:13:57.926
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/Rumen/Documents/gd0t's%20blog/gd0t/src/main/resources/templates/index.html
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-07-05 18:13:57.958
+!MESSAGE [Info] Document is null for editor: Dockerfile.vercel
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-07-05 18:13:57.958
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/Rumen/Documents/gd0t's%20blog/gd0t/Dockerfile
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-07-05 18:13:58.048
+!MESSAGE [Info] Document is null for editor: style.css
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-07-05 18:13:58.049
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/Rumen/Documents/gd0t's%20blog/gd0t/src/main/resources/static/css/style.css
