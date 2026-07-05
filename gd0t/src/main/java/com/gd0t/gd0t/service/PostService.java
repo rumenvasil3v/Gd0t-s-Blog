@@ -19,7 +19,7 @@ public class PostService {
 	
 	// get all posts for the home page of the blog
 	public List<Post> getAllPosts() {
-		return postRepository.findAll(); // using the proxy class at runtime that is created
+		return postRepository.findAllByOrderByIdDesc(); // using the proxy class at runtime that is created
 	}
 	
 	// get a single post for reading
