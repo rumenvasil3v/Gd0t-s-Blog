@@ -174,3 +174,22 @@ input[type="text"]:focus, textarea:focus, .form-control:focus {
 	color: #fff;
 }
 
+@media (max-width: 991px) {
+    /* Override the 55em fixed width so cards fit on phones */
+    .card {
+        width: 100% !important; 
+        max-width: 100%;
+    }
+
+    /* Scale down headers slightly for small screens */
+    h1 { font-size: 2em; }
+    h2 { font-size: 1.75em; }
+    h3 { font-size: 1.5em; }
+    h4 { font-size: 1.3em; }
+
+    /* Add horizontal padding so content doesn't touch the very edge of the phone */
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
