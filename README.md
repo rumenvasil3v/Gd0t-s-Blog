@@ -2,8 +2,6 @@
 
 My personal blog and portfolio, built from scratch with Spring Boot. Live at **[gd0t.uk](https://gd0t.uk/)**.
 
-It has a blog written in Markdown, plus pages for my resume and projects. Only I can log in to write, edit and delete posts; everyone else gets a read-only site.
-
 ## Features
 
 - **Blog with Markdown posts:** content is stored as Markdown and rendered to HTML when a post is viewed (CommonMark).
